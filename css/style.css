@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITIES */
+
+.d-flex {
+    display: flex;
+}
+
+.justify-sb {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* HEADER */
+
+header {
+    height: 4.75rem;
+    background-color: #0084fd;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+header .logo {
+    width: 80px;
+}
+
+header .fa-bars {
+    font-size: 1.5rem;
+}
