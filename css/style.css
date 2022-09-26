@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
 /* UTILITIES */
 
 .d-flex {
@@ -16,6 +20,14 @@
 
 .align-center {
     align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 /* HEADER */
@@ -33,4 +45,40 @@ header .logo {
 
 header .fa-bars {
     font-size: 1.5rem;
+}
+
+
+/* MAIN */
+
+section {
+    padding: 2rem;
+}
+
+/* boxes */
+
+.box {
+    width: 100%;
+    background-color: #b5ddff;
+    color: #5c7082;
+    margin: 12px 0;
+    padding: 2rem 2rem 0 2rem;
+    border-radius: 1.5rem;
+}
+
+.box img {
+    width: 200px;
+    align-self: center;
+}
+
+.box h4 {
+    color: #0084fd;
+}
+
+.demo-app .box .fa-solid {
+    font-size: 4rem;
+    color: #0084fd;
+}
+
+.text-card {
+    text-align: center;
 }
