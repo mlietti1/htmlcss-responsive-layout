@@ -6,6 +6,7 @@
 
 body {
     font-family: 'PT Sans', sans-serif;
+    line-height: 1.5rem;
 }
 
 /* UTILITIES */
@@ -47,22 +48,19 @@ header .fa-bars {
     font-size: 1.5rem;
 }
 
-
-/* MAIN */
-
-section {
-    padding: 2rem;
-}
-
 /* boxes */
 
-.box {
+.demo-app {
+    padding: 20px;
     width: 100%;
+}
+
+.box {
     background-color: #b5ddff;
     color: #5c7082;
-    margin: 12px 0;
     padding: 2rem 2rem 0 2rem;
     border-radius: 1.5rem;
+    margin: 12px;
 }
 
 .box img {
@@ -81,4 +79,16 @@ section {
 
 .text-card {
     text-align: center;
+}
+
+/* MEDIA */
+
+@media screen and (min-width: 425px) {
+    .row:first-child {
+        width: calc(2 / 3 * 100% - 24px);
+    }
+
+    .box.text-card {
+        width: calc(100% / 3 - 24px);
+    }
 }
