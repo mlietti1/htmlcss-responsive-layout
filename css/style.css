@@ -84,10 +84,11 @@ header .fa-bars {
 /* MEDIA */
 
 @media screen and (min-width: 425px) {
-    .row:first-child {
+
+    .row .box:first-child {
         width: calc(2 / 3 * 100% - 24px);
     }
-
+    
     .box.text-card {
         width: calc(100% / 3 - 24px);
     }
